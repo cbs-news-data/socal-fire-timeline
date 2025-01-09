@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Publico Headline";
+    src: url("fonts/PublicoHeadline-Black.woff2") format("woff2"),
+      url("fonts/PublicoHeadline-Black.woff") format("woff");
+  }
+
+body {
+    margin: 0;
+    font-family: "proxima-nova", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .intro {
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+
+.palisades {
+    text-decoration: underline;
+    text-decoration-color: #bfe5cb;
+    text-decoration-thickness: 3px;
+  }
+  .eaton {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #8faedf;
+  }
+
+  .hurst {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #e7a895;
+  }
+
+  .palisades-bg {
+    background-color: #bfe5cb;
+    padding:1px 4px;
+        border-radius: 5%;
+  }
+  .eaton-bg {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #8faedf;
+  }
+
+  .hurst-bg {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #e7a895;
+  }
+  
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #000000;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .timeline-item .timeline-date {
+    font-size: 1.2em;
+    font-weight: bold;
+    background: #fff;
+    line-height: 1.3;
+    border-radius: 20px;
+    display: inline-block;
+  }
+
+  .timeline-time {
+    font-weight: bold;
+  }
+  
+  .timeline-item .timeline-content {
+    margin-top: 10px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    max-width: 600px;
+  }
+
+  .timeline-text {
+    font-size: 16px;
+    background: #fff;
+    padding: 10px 15px;
+  }
+  
