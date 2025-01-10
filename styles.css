@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-  font-family: "proxima-nova", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,12 +27,6 @@ a {
   position: relative; /* Keep contained in layout */
 }
 
-.intro {
-  font-family: "Publico Headline", sans-serif;
-  padding: 10px;
-  padding-bottom: 50px;
-  font-size: 24px;
-}
 
 .palisades {
   text-decoration: underline;
@@ -97,6 +90,8 @@ a {
 .timeline-item p {
   line-height: 1.3;
   font-size: 1.32rem;
+  font-family: "proxima-nova", sans-serif;
+
 }
 
 /* media query mobile time-line item p */
