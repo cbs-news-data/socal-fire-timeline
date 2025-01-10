@@ -247,10 +247,13 @@
         </div>
     </div>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var pymChild = new pym.Child();
-            pymChild.sendHeight();
-        });
+document.addEventListener("DOMContentLoaded", function () {
+    var pymChild = new pym.Child();
+    pymChild.sendHeight(); // Initial height calculation
+    window.addEventListener("resize", function () {
+        pymChild.sendHeight(); // Recalculate height on resize
+    });
+});
     </script>
 </body>
 
