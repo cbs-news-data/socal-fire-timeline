@@ -13,6 +13,12 @@ body {
   height: 100%;
 }
 
+a {
+  color: #101010;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
 .timeline-container {
   display: flex;
   justify-content: center;
