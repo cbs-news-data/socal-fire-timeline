@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "Publico Headline";
-  src: url("fonts/PublicoHeadline-Black.woff2") format("woff2"),
-    url("fonts/PublicoHeadline-Black.woff") format("woff");
+  font-family: 'PublicoHeadline';
+  src: url('https://www.cbsnews.com/fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Black/PublicoHeadline-Black.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
